@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wikipedia Viewer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/index.css">
+  </head>
+  <body>
+  <div class="search-main search-start">
+    <nav class="search-nav search-start">
+      <div class="search-title">
+        <h1 class="separator-1"><span class="wiki">WIKIPEDIA</span> <span class="viewer">VIEWER</span></h1>
+        <p class="separator-1">Wikipedia has it all, just try...</p>
+      </div>
+      <div class="search-form separator-2">
+        <form id="search-form">
+          <input type="text" placeholder="Type anything" class="search-form-input" id="search-input">
+          <input type="submit" value="Go">
+        </form>
+        <h5 class="search-rnd separator-2"><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Or get a random article instead...</a></h5>
+      </div>
+    </nav>
+    <div class="color-bg"></div>
+  </div>
+  <div class="search-results">
+
+  </div>
+  <footer class="main-footer" style="display:none">
+    <p>Made by <strong>Mario Vázquez</strong> for <strong>freeCodeCamp</strong>.</p>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="./dist/js/index.js" charset="utf-8"></script>
+  </body>
+</html>

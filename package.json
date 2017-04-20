@@ -1,0 +1,25 @@
+{
+  "name": "wikipedia-viewer",
+  "version": "1.0.0",
+  "description": "wikipedia viewer web app using wikipedia's api for freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioalvazquez/wikipedia-viewer.git"
+  },
+  "author": "Mario Vázquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marioalvazquez/wikipedia-viewer/issues"
+  },
+  "homepage": "https://github.com/marioalvazquez/wikipedia-viewer#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
